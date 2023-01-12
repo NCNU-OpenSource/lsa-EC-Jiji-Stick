@@ -1,10 +1,4 @@
 # 電流吉吉棒
-- 原名: Listen, Watch, Run
----
-tags: LSA
----
-
-# 電流吉吉棒
 [TOC]
 - 原名: Listen, Watch, Run
 
@@ -26,13 +20,12 @@ tags: LSA
 ## 硬體設備
 | 設備名稱        |                  圖片網址                    |        來源          |
 |----------------|--------------------------------------------|----------------------|
-| Raspberry Pi 4 | <img src="https://i.imgur.com/BEZPftv.jpg" width="30%x"> | 友情贊助(石安通學長提供) |
-| mbot車         | <img src="https://i.imgur.com/KK7WuRG.jpg" width="30%x"> | 友情贊助(林宜蔓學姊提供) |
-| 藍芽喇叭        | <img src="https://i.imgur.com/2W7WH8T.jpg" width="30%x">|     張中漢提供          |
-| 杜邦線n         | <img src="https://i.imgur.com/6GoIwi3.jpg" width="30%x"> | 友情贊助(朋友*n)        |
-| ~~Arduino~~    | <img src="https://i.imgur.com/xTBTYco.jpg" width="30%x"> | 友情提供(張中漢同學)    |
-| 顏色感測器       | <img src="https://i.imgur.com/QJ597Ex.jpg" width="30%x"> | 蝦皮                |
-
+| Raspberry Pi 4 | <img src="https://i.imgur.com/BEZPftv.jpg" width="50%x"> | 友情贊助(石安通學長提供) |
+| mbot車         | <img src="https://i.imgur.com/KK7WuRG.jpg" width="50%x"> | 友情贊助(林宜蔓學姊提供) |
+| 藍芽喇叭        | <img src="https://i.imgur.com/2W7WH8T.jpg" width="50%x">|     張中漢提供          |
+| 杜邦線n         | <img src="https://i.imgur.com/6GoIwi3.jpg" width="50%x"> | 友情贊助(朋友*n)        |
+| ~~Arduino~~    | <img src="https://i.imgur.com/xTBTYco.jpg" width="50%x"> | 友情提供(張中漢同學)    |
+| 顏色感測器       | <img src="https://i.imgur.com/QJ597Ex.jpg" width="50%x"> | 蝦皮                |
 
 ## 安裝設定過程
 #### GPIO & 設備
@@ -203,10 +196,11 @@ void loop() {
 
 
 ## Future
+- 紀錄採到幾次顯示到網頁上
 - 將車身換掉(第2台)
     - 可操控輪子馬達做聲音辨識控制車子移動
     - 車子身上之webcam紀錄移動軌跡到網頁上
-    - ![](https://i.imgur.com/MSh2zZq.jpg)
+    -  <img src="https://i.imgur.com/MSh2zZq.jpg" width="50%x"> 
 
 
 ## thank you ♡♡
@@ -219,4 +213,3 @@ void loop() {
 
 ## 簡報
 https://www.canva.com/design/DAFWsbh7i_I/sOb-uMQBgqB8cr_T3EKsDw/edit?utm_content=DAFWsbh7i_I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-

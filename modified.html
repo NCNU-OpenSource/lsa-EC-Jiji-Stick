@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch UI Design</title>
+    <link rel="stylesheet" href="style03.css">
+    <script src="script_modified.js" defer></script>
+</head>
+<body data-state="idle"></body> <!--目前狀態為閒置-->
+<div class="wrapper">
+    <div class="timer">
+        <div class="container" onclick="toggle()">
+            <!--圓形進度條-->
+            <circular-progressbar
+                id="cpb"
+                min="0"
+                max="60"
+                value="0"
+                angle="180"
+                gap="0" 
+                size="256"
+                width="16"
+                color="#b224ef"
+                track-color="white"
+            >
+            </circular-progressbar>
+            <div class="label">00:00:00</div> <!--點進去進度條第一個出現-->
+            <div class="controls">
+                <div class="playpause"></div> <!--暫停鍵-->
+            </div>
+        </div>
+    </div>
+
+    <!--按鈕們-->
+    <div class="actions">
+        <button onclick="doStart()"> 
+            START
+        </button>    
+        <button onclick="doStop()"> 
+            STOP
+        </button>          
+        <button onclick="doReset()"> <!--全部重設-->
+            RESET
+        </button>
+        <button class="lapbtn" onclick="doLap()"> <!--紀錄-->
+            LAP
+        </button>
+    </div>
+    <div class="laps"></div> <!--儲存記錄區塊-->
+</div>
+</html>

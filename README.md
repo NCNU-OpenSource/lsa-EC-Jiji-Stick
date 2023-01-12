@@ -26,12 +26,12 @@ tags: LSA
 ## 硬體設備
 | 設備名稱        |                  圖片網址                    |        來源          |
 |----------------|--------------------------------------------|----------------------|
-| Raspberry Pi 4 | (https://i.imgur.com/BEZPftv.jpg width="30%x") | 友情贊助(石安通學長提供) |
-| mbot車         | (https://i.imgur.com/KK7WuRG.jpg width="30%x") | 友情贊助(林宜蔓學姊提供) |
-| 藍芽喇叭        | (https://i.imgur.com/2W7WH8T.jpg width="30%x")|     張中漢提供          |
-| 杜邦線n         | (https://i.imgur.com/6GoIwi3.jpg width="30%x") | 友情贊助(朋友*n)        |
-| ~~Arduino~~    | (https://i.imgur.com/xTBTYco.jpg width="30%x") | 友情提供(張中漢同學)    |
-| 顏色感測器       | (https://i.imgur.com/QJ597Ex.jpg width="30%x") | 蝦皮                |
+| Raspberry Pi 4 | ![image](https://i.imgur.com/BEZPftv.jpg width="30%x") | 友情贊助(石安通學長提供) |
+| mbot車         | ![image](https://i.imgur.com/KK7WuRG.jpg width="30%x") | 友情贊助(林宜蔓學姊提供) |
+| 藍芽喇叭        | ![image](https://i.imgur.com/2W7WH8T.jpg width="30%x")|     張中漢提供          |
+| 杜邦線n         | ![image](https://i.imgur.com/6GoIwi3.jpg width="30%x") | 友情贊助(朋友*n)        |
+| ~~Arduino~~    | ![image](https://i.imgur.com/xTBTYco.jpg width="30%x") | 友情提供(張中漢同學)    |
+| 顏色感測器       | ![image](https://i.imgur.com/QJ597Ex.jpg width="30%x") | 蝦皮                |
 
 
 ## 安裝設定過程

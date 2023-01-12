@@ -1,5 +1,12 @@
 # 電流吉吉棒
 - 原名: Listen, Watch, Run
+---
+tags: LSA
+---
+
+# 電流吉吉棒
+[TOC]
+- 原名: Listen, Watch, Run
 
 
 ## 實作念想 
@@ -12,7 +19,8 @@
         -  綠 : 音效 [TADAAH](https://www.youtube.com/watch?v=jLtbFWJm9_M&list=PLen20o33zLu53DXEZDy53UKH9CHknSMld&index=35&ab_channel=GamingSoundFX)
         -  藍 : 音效 [HOT HOT HOT](https://www.youtube.com/watch?v=vFrNxJoB768&list=PLen20o33zLu53DXEZDy53UKH9CHknSMld&index=40&ab_channel=GamingSoundFX)
         -  黃 : 音效 [YEE](https://www.youtube.com/watch?v=q6EoRBvdVPQ&ab_channel=revergo)
-    - 網頁控制開始紀錄時間
+    - 網頁控制開始紀錄時間與結束時紀錄到網頁
+    - 記錄好每次的時間後進行排名, 時間越短名次越前面(數字越小)
 
 
 ## 硬體設備
@@ -24,7 +32,6 @@
 | 杜邦線n         | ![](https://i.imgur.com/6GoIwi3.jpg width="30%x") | 友情贊助(朋友*n)        |
 | ~~Arduino~~    | ![](https://i.imgur.com/xTBTYco.jpg width="30%x") | 友情提供(張中漢同學)    |
 | 顏色感測器       | ![](https://i.imgur.com/QJ597Ex.jpg width="30%x") | 蝦皮                 |
-
 
 
 ## 安裝設定過程
@@ -196,7 +203,6 @@ void loop() {
 
 
 ## Future
-- 車身踩到終點(紅色)自動控制網頁將停止狀態時間記錄到上面
 - 將車身換掉(第2台)
     - 可操控輪子馬達做聲音辨識控制車子移動
     - 車子身上之webcam紀錄移動軌跡到網頁上
@@ -213,7 +219,4 @@ void loop() {
 
 ## 簡報
 https://www.canva.com/design/DAFWsbh7i_I/sOb-uMQBgqB8cr_T3EKsDw/edit?utm_content=DAFWsbh7i_I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
-
-
 

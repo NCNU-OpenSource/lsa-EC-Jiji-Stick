@@ -17,7 +17,7 @@ window.onload = () => {
     body.dataset.state = "idle"; //閒置狀態
     
     //===============================================
-    const ws = new WebSocket('ws://192.168.0.140:4545')
+    const ws = new WebSocket('ws://192.168.50.168:4545')
   
     ws.onopen = function() {
       console.log('ws opened on browser')
@@ -31,7 +31,7 @@ window.onload = () => {
         doStart() ;
     
       if( received_msg == "Stop" )
-        doStop() ;    
+        doStop() ; 
     }
     
     ws.onclose = function() { 
@@ -49,7 +49,9 @@ function doStart(){
 }
 
 function doStop(){
+    doLap();
     stopwatch.stop();
+    
 }
 
 //===================================================

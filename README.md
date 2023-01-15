@@ -28,6 +28,10 @@
 | 顏色感測器       | <img src="https://i.imgur.com/QJ597Ex.jpg" width="50%x"> | 蝦皮                |
 
 ## 安裝設定過程
+#### mbot 組裝過程參考影片
+![【SE mBot 教學】#1 第一課 mBot 機器人組裝](https://youtu.be/METsb2AgULU)
+(參考自![Smile Eddie](https://www.youtube.com/@smileeddie5602)
+
 #### GPIO & 設備
 ![](https://i.imgur.com/cEbRA4x.png)
 
